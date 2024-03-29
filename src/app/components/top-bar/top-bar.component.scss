@@ -1,0 +1,35 @@
+#fceAppBar {
+  display: flex;
+  justify-content: space-between;
+  height: 2.2rem;
+  padding: 0 0.5rem;
+  margin-bottom: 2px;
+  box-shadow: 0px 2px 2px #ddd;
+  background: #eeeeee;
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.fce-menu-item:hover {
+  color: #6600cc;
+}
+
+.logo {
+  height: 1.7em;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: contrast(2);
+}
